@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.0] - 2022-03-18
+### Added
+- Support for serverless v3
+- Support for custom Viewer Protocol Policy
+
 ## [0.9.5] - 2019-02-21
 ### Added
 - .gitignore file [#23](https://github.com/Droplr/serverless-api-cloudfront/pull/23)

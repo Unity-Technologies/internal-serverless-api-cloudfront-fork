@@ -1,8 +1,8 @@
 {
   "name": "serverless-api-cloudfront",
-  "version": "0.9.5",
+  "version": "1.0.0",
   "engines": {
-    "node": ">=6.4"
+    "node": ">=12.0.0"
   },
   "description": "CloudFront distribution in front of your API Gateway",
   "author": "Droplr, Inc.",
@@ -24,9 +24,15 @@
     "serverless.com"
   ],
   "main": "index.js",
+  "peerDependencies": {
+    "serverless": "^1.60.0 || 2 || 3"
+  },
   "dependencies": {
-    "chalk": "2.4.2",
-    "js-yaml": "3.13.1",
-    "lodash": "^4.17.20"
+    "chalk": "^4.1.2",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "serverless": "^3.7.8"
   }
 }
